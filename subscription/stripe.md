@@ -6,7 +6,7 @@ parent: Subscription
 nav_order: 1
 ---
 
-# Introduction
+# Stripe Subscriptions
 **V1.0**
 
 In this section, you will learn how to create a manage your subscriptions with [Stripe](https://stripe.com/).
