@@ -8,5 +8,5 @@ nav_order: 2
 # Introduction
 **V1.0**
 
-In this section, you will learn RCL Learn subscription.
+In this section, you will learn about ``RCL Learn`` subscription.
  
