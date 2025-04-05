@@ -1,6 +1,6 @@
 ---
 title: Stripe Subscription
-description: Learn how to create and manage your subscriptions with Stripe
+description: Learn how to create and manage your RCL Learn subscription with Stripe
 has_children: false
 parent: Subscription
 nav_order: 1
@@ -9,7 +9,7 @@ nav_order: 1
 # Stripe Subscription
 **V1.0**
 
-In this section, you will learn how to create and manage your subscriptions with [Stripe](https://stripe.com/).
+In this section, you will learn how to create and manage your RCL Learn subscription with [Stripe](https://stripe.com/).
 
 ## Subscribe
 
@@ -18,7 +18,7 @@ You will subscribe to RCL Learn with [Stripe](https://stripe.com/).
 {: .information }
 Your credit card payment is solely handled by [Stripe](https://stripe.com/). RCL will not request, store or copy your credit card number at anytime.
 
-- In the RCL Learn home page or Pricing page, click the ``Free Trial`` button. In the ``Subscription`` page click on the ``Checkout`` button. You will be redirected to the Stripe subscription page.
+- In the RCL Learn ``home`` or ``pricing`` page, click the ``Free Trial`` button. In the ``Subscription`` page, click on the ``Checkout`` button. You will be redirected to the Stripe subscription page.
 
 - In the Stripe page, click on the ``Start trial`` button.
 
@@ -28,7 +28,7 @@ A credit card is not required for starting your free trial.
 - Your trial subscription will be created.
 
 {: .information }
-You will need to wait for up to 15 mins for your subscription to be created so be patient.
+You will need to wait for up to 15 mins for your subscription to be created, so be patient.
 
 - After a few minutes, click on the ``Continue`` button on the ``Subscription Completed`` page to to start using the application.
 
@@ -44,12 +44,12 @@ When you subscribe for a free trial, your subscription will be in the ``TRIAL MO
 
 - In the Stripe page, click on the ``Add payment method``.
 
-- Add a payment method, if you are using a credit card at the card details
+- Add a payment method, if you are using a credit card add the card details.
 
-- Once the trial period ends, the subscription will be activated and be in the ``ACTIVE`` mode. 
+- Once the trial period ends, the subscription will be activated and be transitioned to the ``ACTIVE`` mode. 
 
 {: .information }
-Once you add a payment method and activate a trial subscription, you will need to wait for the trial period to expire for the subscription to transition form the ``TRIAL MODE`` to the ``ACTIVE`` mode.
+Once you add a payment method and activate a trial subscription, you will need to wait for the trial period to expire for the subscription to transition from the ``TRIAL MODE`` to the ``ACTIVE`` mode.
 
 ## Cancel an Active Subscription
 
