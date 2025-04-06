@@ -9,4 +9,13 @@ nav_order: 2
 # Shared Domain
 **V1.0**
 
-In this section, you will learn how to create a shared domain for a site.
+A shared domain is the website URL for your site. You will use this URL to navigate to your site in a web browser. The shared domain is fully managed by the application. The shared domain is a subdomain of ``cloudtnt.com`` which is a managed domain for RCL Learn web application. An example for a shared domain is ``contoso.cloudtntnt.com``, where ``couldtnt`` is the **shared domain name**.
+
+- In the ``Site > Shared Domain Name`` page, add a shared domain name, eg. ``contoso``. The name should only contain common letters, a-z. Special characters (eg: ,.?*-/&$) and numbers are not allowed. The name should contain 50 characters or less.
+
+- It may take a few minutes to create the shared domain, so be patient.
+
+- Once the shared domain is created, you can navigate to your site using the URL displayed in the ``Shared Domain Name`` page.
+
+{: .warning }
+Multiple creation and deletion of a shared domain is an expensive compute operation and is not allowed. Your site may be disabled for this type of action.
