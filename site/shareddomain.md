@@ -6,7 +6,7 @@ parent: Site
 nav_order: 2
 ---
 
-# Introduction
+# Shared Domain
 **V1.0**
 
 In this section, you will learn how to create a shared domain for a site.
