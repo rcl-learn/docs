@@ -17,5 +17,7 @@ A shared domain is the website URL for your site. You will use this URL to navig
 
 - Once the shared domain is created, you can navigate to your site using the URL displayed in the ``Shared Domain Name`` page.
 
+- Note: You cannot have both a Shared Domain Name and a Custom Domain Name at the same time, one must be deleted.
+
 {: .warning }
 Multiple creation and deletion of a shared domain is an expensive compute operation and is not allowed. Your site may be disabled for this type of action.
