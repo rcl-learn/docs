@@ -21,5 +21,5 @@ When your create a site, you add the image and text on your sites's home page.
 
 - Upload an image for your home page. The image should have a maximum file size of 250Kb. It is recommended that the image be approximately square shaped, with a length of between 250px - 450px. The image should have a white or transparent background to match the site's theme. 
 
-- You must setup up a shared domain or custom domain to view your site in a web browser after you have created it.
+- You must setup up a [shared domain](./shareddomain.md) or [custom domain](./customdomain.md) to view your site in a web browser after you have created it.
 
