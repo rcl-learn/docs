@@ -15,3 +15,5 @@ An event is a training session delivered to learners on Microsoft Teams meeting.
 
 Events are organized within and ``Event Group``. Example of event groups include: coding, robotics, AI, micro electronics, welding, etc.
 
+## Event
+
