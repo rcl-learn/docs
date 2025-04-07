@@ -17,7 +17,7 @@ The RCL Learn platform provides tools to run remote learning, virtual learning o
 
 # Managing Events
 
-An event is a training session delivered via a [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) meeting. An organization will use RCL Learn to advertise the event on a website that they create using the platform. Learners will enroll for the event on the website. The event can be free or paid. For paid events, the learner will pay for the event using [PayPal](https://www.paypal.com/us/home). The organization will track the enrollments online and can download a list of emails to communicate with the learners. The organization can use their website to share files and videos for the event with the learners. These files will be hosted by the organization on [Microsoft OneDrive]().
+An event is an oline live session delivered via a [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) meeting. An organization will use RCL Learn to advertise the event on a website that they create using the platform. Learners will enroll for the event on the website. The event can be free or paid. For paid events, the learner will pay for the event using [PayPal](https://www.paypal.com/us/home). The organization will track the enrollments online and can download a list of emails to communicate with the learners. The organization can use their website to share files and videos for the event with the learners. These files will be hosted by the organization on [Microsoft OneDrive]().
 
 # Managing Online Assessments
 

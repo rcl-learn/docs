@@ -9,7 +9,7 @@ nav_order: 1
 # Events
 **V1.0**
 
-An event is a live session delivered to learners via a Microsoft Teams meeting.
+An event is an online live session delivered to learners via a Microsoft Teams meeting.
 
 ## Event Group
 
