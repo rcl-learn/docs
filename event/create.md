@@ -27,7 +27,7 @@ Events are organized within ``Event Groups``. Example of event groups include: c
 
 ## Event
 
-- In the Event Group click the admin button to the far right and click on the ``Events`` link.
+- In the Event Group list, click the admin button to the far right and click on the ``Events`` link.
 
 - In the ``Events`` page, click the ``Create an Event`` button.
 
