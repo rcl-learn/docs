@@ -16,7 +16,7 @@ The custom domain must be a sub-domain.
 
 - If you have already registered a Shared Domain Name for your site, please delete it. You cannot have a [Shared Domain Name](./shareddomain.md) and Custom Domain Name at the same time.
 
-- In the ``Site > Custom Domain`` page, create a custom domain name.
+- In the ``Site > Custom Domain`` page, create a custom domain name, eg. ``learn.contoso.com``. The custom domain must be a **sub-domain**.
 
 - In the management portal of your domain registrar, add the ``TXT`` record and ``CNAME`` records as shown on the ``Create Custom Domain Name`` page.
 
