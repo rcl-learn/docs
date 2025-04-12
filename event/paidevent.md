@@ -19,7 +19,7 @@ Before a paid event can be created, the following prerequisites must be met :
 
 - Enable [Instant Payment Notification](/payment/payment#setting-up-instant-payment-notification-ipn-in-paypal) in PayPal.
 
-- Set the payment [Auto Return Page](/payment/payment.md#set-the-auto-return-page) in PayPal.
+- Set the payment [Auto Return Page](/payment/payment#set-the-auto-return-page) in PayPal.
 
 ## Create a PayPal Buynow Button
 
