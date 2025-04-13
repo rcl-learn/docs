@@ -16,7 +16,7 @@ The organization must set up a [PayPal Business Account](https://www.paypal.com/
 
 ## Configure PayPal in the portal
 
-- Payments can only be set by an owner in the portal.
+- Payments can only be configured by an owner in the portal.
 
 - In the ``Payments > PayPal Configuration`` page, add the ``Business Email`` address of the PayPal account.
 
@@ -39,7 +39,7 @@ https://rclapi.azure-api.net/v1/payment/paypal/webhook
 
 - Save the settings when you are done.
 
-## Set the Auto Return page
+## Set the Auto Return page in PayPal
 
 - In ``PayPal Account Settings``, navigate to the ``Website payments`` page and update the ``Website preferences``.
 
@@ -64,4 +64,12 @@ https://learn.contoso.com/Payment/PayPalReturn/PaymentSuccess
 - Click the ``Save`` link when you are done.
 
 - Set the ``PayPal account optional`` to ``On``.
+
+## View complete payments in the portal
+
+An organization can view a list of completed payments in the portal.
+
+- In the portal, navigate to the ``Portal > Portal`` page.
+
+- In the ``Recent Payments`` page, you view and manage payments
 

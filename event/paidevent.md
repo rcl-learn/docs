@@ -21,13 +21,13 @@ Before a paid event can be created, the following prerequisites must be met :
 
 - Set the payment [Auto Return Page](/payment/payment#set-the-auto-return-page) in PayPal.
 
-## Create a PayPal Buynow Button
+## Create a PayPal Buynow Button in PayPal
 
 - In ``PayPal Account Settings``, navigate to the ``Website payments`` page and update the ``PayPal buttons``.
 
 - In the ``Make a PayPal Button`` page, click on the ``Buy Now`` button.
 
-= In the ``Buy Now`` page, add the Product Name and Price
+- In the ``Buy Now`` page, add the Product Name and Price
 
 - In the RCL Learn portal, navigate to the ``Events`` page and in the events lis, get the ``Id`` of the event.
 
@@ -37,7 +37,7 @@ Before a paid event can be created, the following prerequisites must be met :
 
 - Click the ``Save and Create`` button when you are done.
 
-## Create a Paid Event
+## Create a Paid Event in the portal
 
 - In the portal, navigate to the events list for a selected group. 
 
