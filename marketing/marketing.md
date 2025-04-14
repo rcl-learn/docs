@@ -16,6 +16,8 @@ The Google Analytics tag is use to track page views in an organization's site. T
 
 - Site home page
 
+- Event groups page
+
 - Event details page
 
 In this way, you can track a site's views and you event views.
