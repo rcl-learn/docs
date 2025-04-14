@@ -24,8 +24,12 @@ In this way, you can track a site's views and you event views.
 
 - Name the property with your shared or custom domain name, eg. ``constoso.cloudtntcom``.
 
-- Set up a ata stream with your shared or custom doamin URL, eg. ``https://contoso.cloudtnt.com``.
+- Set up a data stream with your shared or custom domain URL, eg. ``https://contoso.cloudtnt.com``.
 
 - Copy the ``MEASUREMENT ID`` to install in the portal later on.
 
-- In the RCL Learn portal, navigate to 
+- In the RCL Learn portal, navigate to ``Marketing >> Marketing Tag``.
+
+- In the ``Marketing Tags`` page, click the ``Create a Marketing Tag`` button.
+
+- Add the ``MEASUREMENT ID`` from Google Analytics and click the ``Submit`` button when you are done.
