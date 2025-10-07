@@ -1,22 +1,22 @@
 ---
 title: Refund Policy
 description: Refund Policy for RCL Learn
-has_children: false
 parent: Subscription
-nav_order: 3
+has_children: false
+nav_order: 6
 ---
 
 # Refund Policy
 **V1.0**
 
-All subscription payments are final for all the software applications and services provide by  RCL Global LLC, which include:
+All subscription payments are final for all the SOFTWARE APPLICATIONS AND SERVICES provide by  RCL Global LLC, which include:
 
-- RCL Learn
+- RCL Verifiable Credentials Issuer App
 
 RCL Global LLC does not offer any money-back guarantees. 
  
  {: .information }
- You recognize and agree that you shall not be entitled to a refund for any purchase under any circumstances.
+ You recognize and agree that you shall not be entitled to a refund for any purchase or subscription under any circumstances.
 
 # No Warranties 
 
@@ -29,4 +29,4 @@ YOU AGREE TO ABSOLVE RCL Global LLC, its employees, partners and directors OF AN
 # Contact
 
 - RCL Global LLC
-- support@rclapp.com
+- vcsupport@rclapp.com
