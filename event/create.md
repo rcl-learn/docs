@@ -9,11 +9,14 @@ nav_order: 1
 # Events
 **V1.0**
 
-An event is an online live session delivered to learners via a Microsoft Teams meeting.
+An event is a training video delivered that can be delivered:
+
+- live video via a [Microsoft Teams Meeting](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software)
+- recorded video saved on [Microsoft OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) and shared with learners
 
 ## Event Group
 
-Events are organized within ``Event Groups``. Example of event groups include: coding, robotics, AI, micro electronics, welding, etc.
+Events are organized within ``Event Groups``. Example of event groups include: Coding, Robotics, AI, Micro-electronics, Welding, etc.
 
 - In the ``Events > Events Group`` page, click the ``Create an Event Group`` button.
 
@@ -21,9 +24,7 @@ Events are organized within ``Event Groups``. Example of event groups include: c
 
 - Groups are displayed alphabetically on the site using the ``Sort Code``.
 
-- Upload an image for the group. The image should have a maximum file size of 250Kb. It is recommended that the image be approximately square shaped, with a length of between 250px - 550px. The image should have a white or transparent background to match the site's theme. 
-
-- Owners can provide an email address for the Organizer of the group to login, access and manage the group on the site.
+- Upload an image for the group. The image should have a maximum file size of 250Kb. It is recommended that the image be approximately square shaped, with a length of between 150px - 250px. The image should have a white or transparent background to match the site's theme. 
 
 ## Event
 
@@ -33,18 +34,13 @@ Events are organized within ``Event Groups``. Example of event groups include: c
 
 - Add the name and description for the event.
 
-- If you want the event to be featured on the top of the event group's page on the site, tick the ``Is Featured`` check box.
-
-{: .information }
-You can have only one featured event on the event group page. The featured event wll be displayed prominently on the group page on the site.
-
 - Add the date for the event.
 
 - Add the time for the event, for international events add the time zone, eg. 10:00 AM Atlantic Standard Time (AST).
 
 - Add the duration for the event, eg. 2hrs.
 
-- Upload an image for the event. The image should have a maximum file size of 250Kb. It is recommended that the image be approximately square shaped, with a length of between 250px - 550px. The image should have a white or transparent background to match the site's theme. 
+- Upload an image for the event. The image should have a maximum file size of 250Kb. It is recommended that the image be approximately square shaped, with a length of between 150px - 250px. The image should have a white or transparent background to match the site's theme. 
 
 - Provide an email address for the Presenter of the event to login, access and manage Microsoft Teams meeting and OneDrive shared files.
 

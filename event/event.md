@@ -2,7 +2,7 @@
 title: Event
 description: Learn about RCL Learn events.
 has_children: true
-nav_order: 4
+nav_order: 2
 ---
 
 # Introduction
