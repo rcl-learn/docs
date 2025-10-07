@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-description: Terms of Service for the use of RCL Verifiable Credentials
+description: Terms of Service for the use of the RCL Learn platform
 parent: Subscription
 has_children: false
 nav_order: 5
@@ -13,7 +13,9 @@ nav_order: 5
 
 These Terms of Service applies to all users who subscribe to or use the software and services developed by RCL Global LLC. The software and services (known as the 'Service') include the following:
 
-- RCL Verifiable Credentials Issuer App
+- RCL Learn Platform
+- RCL Verifiable Credentials Web Wallet
+- RCL Verifiable Credentials Wallet
 
 ## General Conditions
 
