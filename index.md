@@ -8,7 +8,7 @@ nav_order: 1
 # Introduction - RCL Learn
 **V1.0**
 
-The **RCL Learn** platform provides tools to run remote learning, virtual learning or distance learning initiatives. RCL Learn is a Software as a Services (SaaS) application offered to public or private organizations and individuals. It is an enterprise grade cloud application that allows collaboration among an organization's teams members such as organizers, presenters and assessors. The main features of the platform are as follows:
+The **RCL Learn** platform provides tools to run remote learning, virtual learning or distance learning initiatives. RCL Learn is a Software as a Services (SaaS) application offered to public or private organizations. It is an enterprise grade cloud application that allows collaboration among an organization's teams members such as organizers, presenters and assessors to deliver video training events and verifiable credentials to learners. The main features of the platform are as follows:
 
 - Advertise and enroll learners to training events delivered via Microsoft Teams meetings
 - Share video files of training events on Microsoft OneDrive with learners
@@ -22,7 +22,7 @@ A live video training event is an online live session delivered via a [Microsoft
 
 ## Recorded Video Events
 
-An organization can use the platform to share video files for training events event with the learners. These videos will be hosted by a presenter on [Microsoft OneDrive]().
+An organization can use the platform to share video files for training events with the learners. These videos will be hosted by a presenter on [Microsoft OneDrive]().
 
 ## Enrollments
 
@@ -36,7 +36,7 @@ An organization will issue a digital credential to a learner who demonstrates co
 
 ## Organizer
 
-An organizer will administer the platform on behalf of the organization delivering remote leaning and digital credentials.
+An organizer will administer the platform on behalf of the organization delivering remote leaning and issuing verifiable credentials.
 
 ## Presenter
 
@@ -56,11 +56,11 @@ The RCL Learn eco-system is comprised of the following applications:
 
 ## RCL Learn Platform
 
-On this platform learners, presenters, assessors and organizers will communicate to deliver and consume live and recorded video training events and digital credentials.
+On this platform, presenters, assessors and organizers within an organization will work together to deliver live and recorded video training events and issue verifiable credentials to learners.
 
 ## RCL Verifiable Credentials Web Wallet
 
-The web wallet will allow learners to store and display the verifiable credentials to peers and employers.
+The web wallet will allow learners to store and display their verifiable credentials to peers and employers on a cloud-based website.
 
 ## RCL Verifiable Credentials Wallet
 
