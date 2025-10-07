@@ -11,7 +11,9 @@ nav_order: 6
 
 All subscription payments are final for all the SOFTWARE APPLICATIONS AND SERVICES provide by  RCL Global LLC, which include:
 
-- RCL Verifiable Credentials Issuer App
+- RCL Learn Platform
+- RCL Verifiable Credentials Web Wallet
+- RCL Verifiable Credentials Wallet
 
 RCL Global LLC does not offer any money-back guarantees. 
  

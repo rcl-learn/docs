@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: Privacy Policy for the RCL Verifiable Credentials
+description: Privacy Policy for the RCL Learn platform
 parent: Subscription
 has_children: false
 nav_order: 4
@@ -11,16 +11,15 @@ nav_order: 4
 
 ## Scope
 
-This policy applies to the following **RCL Verifiable Credentials** applications
+This policy applies to the following **RCL Learn** applications
 
+- RCL Learn Platform
 - RCL Verifiable Credentials Web Wallet
-- RCL Verifiable Credentials Mobile Wallet
-- RCL Verifiable Credentials Issuer App
-- RCL Verifiable Credentials Verifier App
+- RCL Verifiable Credentials Wallet
 
 ## Cookies
 
-When you visit the **RCL Verifiable Credentials** applications, we use cookies to collect standard internet login information and details about the behavior of visitors to our site.
+When you visit the **RCL Learn** applications, we use cookies to collect standard internet login information and details about the behavior of visitors to our site.
 
 We do this to find out things such as the number of visitors to the various parts of our site and to provide you
 with a better experience.
