@@ -3,7 +3,7 @@ title: Paid Events
 description: Learn about RCL Learn paid events
 has_children: false
 parent: Event
-nav_order: 2
+nav_order: 4
 ---
 
 
