@@ -9,7 +9,7 @@ nav_order: 4
 
 # Paid Events
 
-An organizer can create a paid event where a learner will need to pay a fee to enroll for the event.
+An organizer can create a paid event where a learner will need to pay a fee to enroll for the event. The event can be a live video delivered in a Microsoft Teams Meeting or a recorded video stored in Microsoft OneDrive.
 
 ## Prerequisites
 
