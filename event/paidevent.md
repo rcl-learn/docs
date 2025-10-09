@@ -15,13 +15,13 @@ An organizer can create a paid event where a learner will need to pay a fee to e
 
 Before a paid event can be created, the following prerequisites must be met :
 
-- Create a [PayPal Business Account](/payment/payment#paypal-account) in PayPal.
+- Create a [PayPal Business Account](../payment/payment#paypal-account) in PayPal.
 
-- Enable [Instant Payment Notification](/payment/payment#setting-up-instant-payment-notification-ipn-in-paypal) in PayPal.
+- Enable [Instant Payment Notification](../payment/payment#setting-up-instant-payment-notification-ipn-in-paypal) in PayPal.
 
-- Set the payment [Auto Return Page](/payment/payment#set-the-auto-return-page) in PayPal.
+- Set the payment [Auto Return Page](../payment/payment#set-the-auto-return-page-in-paypal) in PayPal.
 
-## Create a PayPal Buynow Button in PayPal
+## Create a PayPal Buy Now Button in PayPal
 
 - In ``PayPal Account Settings``, navigate to the ``Website payments`` page and update the ``PayPal buttons``.
 

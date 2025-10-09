@@ -5,7 +5,7 @@ has_children: false
 nav_order: 4
 ---
 
-# Paid Events
+# PayPal Payments
 **V1.0**
 
 An organization can collect payments with [PayPal](https://www.paypal.com/us/home).
@@ -16,15 +16,18 @@ The organization must set up a [PayPal Business Account](https://www.paypal.com/
 
 ## Configure PayPal in the portal
 
-- Payments can only be configured by an owner in the portal.
+- Payments can only be configured by an organizer in the portal.
 
-- In the ``Payments > PayPal Configuration`` page, add the ``Business Email`` address of the PayPal account.
+- In RCL Learn Organizer portal, go to the ``Payments > PayPal Configuration`` page, add the ``Business Email`` address of your PayPal business account.
+
+- You can get the Business Email in PayPal in the ``Account Setting`` section under ``Account ownership info`` page.
+
 
 ## Setting up Instant Payment Notification (IPN) in PayPal
 
 - For the application to process PayPal payments, IPN must be enabled in PayPal.
 
-- In ``PayPal Account Settings``, navigate to the ``Website payments`` page and update the ``Instant payment notification``.
+- In PayPal ``Account Settings``, navigate to the ``Website payments`` page and update the ``Instant payment notification``.
 
 - In the ``Instant Payment Notification (IPN)`` page, click on the ``Choose IPN Settings`` button.
 
@@ -41,24 +44,12 @@ https://rclapi.azure-api.net/v1/payment/paypal/webhook
 
 ## Set the Auto Return page in PayPal
 
-- In ``PayPal Account Settings``, navigate to the ``Website payments`` page and update the ``Website preferences``.
+- In PayPal ``Account Settings``, navigate to the ``Website payments`` page and update the ``Website preferences``.
 
 - In the ``Website payment preferences`` page, set the ``Auto return`` to ``On`` and set the return URL to :
 
 ```
-https://<your-custom-or-shared-domain>/Payment/PayPalReturn/PaymentSuccess
-```
-
-Note: Replace the ``your-custom-or-shared-domain`` place holder with your domain, eg,
-
-```
-https://contoso.cloudtnt.com/Payment/PayPalReturn/PaymentSuccess
-```
-
-or 
-
-```
-https://learn.contoso.com/Payment/PayPalReturn/PaymentSuccess
+https://learn.rclapp.com/Public/PayPalReturn/PaymentSuccess
 ```
 
 - Click the ``Save`` link when you are done.
@@ -69,7 +60,7 @@ https://learn.contoso.com/Payment/PayPalReturn/PaymentSuccess
 
 An organization can view a list of completed payments in the portal.
 
-- In the portal, navigate to the ``Portal > Portal`` page.
+- In the Organizer portal, navigate to the ``Payments > PayPal Payments`` page.
 
 - In the ``Recent Payments`` page, you view and manage payments
 

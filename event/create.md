@@ -55,10 +55,6 @@ Events are organized within ``Event Groups``. Example of event groups include: C
 
 A featured even will be display in your organization's page. Only one event can be featured. To feature an event, edit it event and set the Is Featured checkbox.
 
-## Event Cost
-
-- TODO
-
 ## Live Event
 
 Learners will attend the live online event via a Microsoft Teams meeting (event). When setting up the meeting (event) on Microsoft Teams, ensure you ``Require unverified participants to verify their info before joining`` in the ``Meeting options``. In this way, you will check that the participant's email that they login to Microsoft Teams matches the username that enrolled for the event. This is important for paid events.
