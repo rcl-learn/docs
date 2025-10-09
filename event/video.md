@@ -30,13 +30,15 @@ When setting up the meeting (event) on Microsoft Teams, ensure you ``Require unv
 
 ## Recorded Video
 
-- The Presenter will save the a recorded video in their Microsoft OneDrive Account.
+- The Presenter can upload videos to YouTube if this is a free event.
+
+- The Presenter can also save a recorded video in their Microsoft OneDrive Account. This is applicable for paid events.
 
 - This recorded video may be created from a saved Microsoft Teams meeting.
 
-- Share Access to the video file will be provided to each of the learners that enrolled to the event.
+- Share Access to the video file on OneDrive will be provided to each of the learners that enrolled to the event.
 
-- The Presenter will copy the Share Link to paste in the RCL Learn application.
+- The Presenter will copy the video's Share Link to paste in the RCL Learn application.
 
 - In the **Presenter Portal**, in the **Events** page, click on the admin button on the far right for a selected event, then click the ``Video`` link.
 
@@ -50,9 +52,9 @@ When setting up the meeting (event) on Microsoft Teams, ensure you ``Require unv
 
     - Use the list to admit only enrolled learners in a Microsoft Teams meeting. This is important for paid events.
 
-    - Use the list of usernames to set access to shared video files in Microsoft OneDrive so that only enrolled learners can play the video file.
+    - Use the list of usernames to set access to shared video files in Microsoft OneDrive so that only enrolled learners can play the video file. This is important for paid events.
 
-    - Use the list to create a mail-merge in Microsoft Outlook to communicate with enrolled learners. This is useful to remind learners of a live event of inform them that the event is about to start.
+    - Use the list to create a mail-merge in Microsoft Outlook to communicate with enrolled learners. This is useful to remind learners of a live event or inform them that a live event is about to start.
 
 
 
