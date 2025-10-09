@@ -15,21 +15,21 @@ Marketing tags are used optimize [Facebook ads](https://www.facebook.com/busines
 
 The Google Analytics tag is use to track page views in an organization's site. The following pages are tracked :
 
-- Site home page
+- Organization page
 
-- Event groups page
+- Event Group page
 
-- Event details page
+- Event Details page
 
-In this way, you can track a site's views and you event views.
+In this way, you can track your event views.
 
 - In Google Analytics, create a new property.
 
-- Name the property with your shared or custom domain name, eg. ``constoso.cloudtntcom``.
+- You may name the property ``rcl learn``.
 
-- Set up a data stream with your shared or custom domain URL, eg. ``https://contoso.cloudtnt.com``.
+- Set up a data stream with your shared or custom domain URL, eg. ``https://learn.rclapp.com``.
 
-- Copy the ``MEASUREMENT ID`` to install in the portal later on.
+- Copy the ``MEASUREMENT ID`` to install in the Organizer portal later on.
 
 - In the RCL Learn portal, navigate to ``Marketing >> Marketing Tag``.
 
