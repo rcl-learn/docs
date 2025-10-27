@@ -9,7 +9,7 @@ nav_order: 1
 # Events
 **V1.0**
 
-An event is a training video that can be delivered with:
+An event is a video that can be delivered with:
 
 - a live video via a [Microsoft Teams Meeting](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) . This is called a live event.
 
@@ -53,7 +53,7 @@ Events are organized within ``Event Groups``. Example of event groups include: C
 
 ## Featured Event
 
-A featured even will be display in your organization's page. Only one event can be featured. To feature an event, edit it event and set the Is Featured checkbox.
+A featured event will be display in your organization's page. Only one event can be featured. To feature an event, edit it event and set the Is Featured checkbox.
 
 ## Live Event
 

@@ -9,19 +9,23 @@ nav_order: 1
 # Marketing Tags
 **V1.0**
 
-Marketing tags are used optimize [Facebook ads](https://www.facebook.com/business/tools/facebook-ads) for your events and to track page views in [Google Analytics](https://marketingplatform.google.com/about/analytics/).
+Marketing tags are used optimize [Facebook ads](https://www.facebook.com/business/tools/facebook-ads) for your credentials and events and to track page views in [Google Analytics](https://marketingplatform.google.com/about/analytics/).
 
 ## Google Analytics tag
 
-The Google Analytics tag is use to track page views in an organization's site. The following pages are tracked :
+The Google Analytics tag is use to track page views in for an organization's credentials and events. The following pages are tracked :
 
 - Organization page
+
+- Credential Group page
+
+- Credential Details page
 
 - Event Group page
 
 - Event Details page
 
-In this way, you can track your event views.
+In this way, you can track your page views.
 
 - In Google Analytics, create a new property.
 
@@ -41,7 +45,7 @@ In this way, you can track your event views.
 
 ## Meta Pixel tag
 
-The Meta Pixel tag is used to optimize Facebook ads for a event.
+The Meta Pixel tag is used to optimize Facebook ads for a a credential or event.
 
 - In [Meta for Business](https://business.facebook.com/) , navigate to ``Events Manager`` and click on the ``Data Sources`` link.
 
@@ -57,23 +61,19 @@ The Meta Pixel tag is used to optimize Facebook ads for a event.
 
 - In the ``Pixel`` page in Meta for Business, click the ``Test events`` tab.
 
-- In the ``Test Browser Events`` , add the following URL to test a free event enrollment :
+- In the ``Test Browser Events``, add the following URL to test a a free credential or event :
 
-```https://<your-shared-or-custom-domain>/Event/EventPublic/EnrollmentSuccess```
+```https://learn.rclapp.com/Public/MarketingReturn/MarketingSuccess?sid=<your-subscription-id>```
 
-Note: replace the domain place holder with your shared or custom domain name, eg. 
-
-``https://contoso.cloudtnt.com/Event/EventPublic/EnrollmentSuccess`` 
-
-or 
-
-``https://learn.contoso.com/Event/EventPublic/EnrollmentSuccess``.
+    - Add you ``subscription id`` in the placeholder
 
 - You should see the ``Complete registration`` event was processed.
 
-- Also test the following URL for a paid event :
+- Also test the following URL for a paid credential or event :
 
-```https://<your-shared-or-custom-domain>/Payment/PayPalReturn/PaymentSuccess```
+```https://learn.rclapp.com/Public/PayPalReturn/PaymentSuccess?sid=<your-subscription-id>```
+
+    - Add you ``subscription id`` in the placeholder
 
 - To include your Meta Pixel in an ad, create a new ``Sales`` campaign.
 
@@ -81,4 +81,4 @@ or
 
 - Select ``Complete registration`` in the ``Conversion event``.
 
-- The pixel will noe be added to your ad campaign.
+- The pixel is now added to your ad campaign.

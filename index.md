@@ -8,47 +8,50 @@ nav_order: 1
 # Introduction - RCL Learn
 **V1.0**
 
-**RCL Learn** provides a platform for training organizations to deliver video training events and issue verifiable credentials. RCL Learn is a Software as a Services (SaaS) application offered to public or private training organizations. It is an enterprise grade cloud application that allows collaboration among an organization's teams members such as organizers, presenters and assessors. The main features of the platform are as follows:
+**RCL Learn** provides a platform for training organizations to issue [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/) to learners and deliver video events to support these credentials. RCL Learn is a Software as a Services (SaaS) application offered to public or private organizations. It is an enterprise grade cloud application that allows collaboration among an organization's teams members such as organizers, assessors and presenters. The main features of the platform are as follows:
 
-- Advertise and enroll learners to video training events delivered via Microsoft Teams meetings
-- Share video files of training events on Microsoft OneDrive with learners
 - Issue W3C Verifiable Credentials to recognize learner achievements
+- Advertise and enroll learners for credentials and events
 
-# Managing Events
-
-## Live Video Events
-
-A live video training event is an online live session delivered via a [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) meeting by a presenter to learners. 
-
-## Recorded Video Events
-
-A training organization can use the platform to share video files for training events with the learners. These videos will be hosted by a presenter on [Microsoft OneDrive]().
-
-## Enrollments
-
-An training organization will use the platform to advertise the event. Learners will enroll for the event on the platform. The event can be free or paid. For paid events, the learner will pay for the event using [PayPal](https://www.paypal.com/us/home). The organization will track the enrollments online and can download a list of emails to communicate with the learners. 
+- Allow learners to store credentials and Web and Mobile wallets
 
 # Issuing Verifiable Credentials
 
-A training organization will issue a verifiable credential to a learner who demonstrates competence in assessments. The verifiable credentials will conform with the [W3C Verifiable Credential](https://www.w3.org/TR/vc-data-model-2.0/) specifications. The organization will use the platform ro create these verifiable credentials and issue them to learners.
+An organization will issue a verifiable credential to a learner who demonstrates competence in assessments. The verifiable credentials will conform with the [W3C Verifiable Credential](https://www.w3.org/TR/vc-data-model-2.0/) specifications. The organization will use the platform ro create these verifiable credentials and issue them to learners.
+
+# Events
+
+Video events and used by an organization to prepare a leaner to achieve a credential.
+
+## Live Video Events
+
+A live video event is an online live session delivered via a [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) meeting by a presenter to learners. 
+
+## Recorded Video Events
+
+An organization can use the platform to share video files for events with the learners. These videos will be hosted by a presenter on [Microsoft OneDrive]().
+
+## Enrollments
+
+An training organization will use the platform to advertise credentials and events. Learners will enroll on the platform. The credentials or events can be free or paid. For paid credentials or events, the learner will pay for the event using [PayPal](https://www.paypal.com/us/home). The organization will track the enrollments online and can download a list of emails to communicate with the learners. 
 
 # Roles
 
 ## Organizer
 
-An organizer is a member of the training organization that  will administer the platform on behalf of the organization delivering video training events and issuing verifiable credentials.
-
-## Presenter
-
-A presenter is a member of the training organization that will present live video events or recorded videos to learners.
-
-## Assessors
-
-An assessor is a member of the training organization that will assess a learner for a verifiable credential and recommended a learner to be issued the credential.
+An organizer is a member of the organization that  will administer the platform on behalf of the organization issuing verifiable credentials and delivering events.
 
 ## Learner 
 
-A learner will participate in video training events and undergo assessments to earn verifiable credentials.
+A learner will participate in events and undergo assessments to earn verifiable credentials.
+
+## Assessors
+
+An assessor is a member of the organization that will assess a learner for a verifiable credential and recommended a learner to be issued the credential.
+
+## Presenter
+
+A presenter is a member of the  organization that will present live or recorded events to learners.
 
 # Eco-System
 
@@ -56,7 +59,7 @@ The RCL Learn eco-system is comprised of the following applications:
 
 ## RCL Learn Platform
 
-On this platform, presenters, assessors and organizers within a training organization will work together to deliver live and recorded video training events and issue verifiable credentials to learners.
+On this platform, organizers, assessors and presenters within an organization will work together to issue verifiable credentials and deliver events to learners.
 
 ## RCL Verifiable Credentials Web Wallet
 
