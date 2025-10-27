@@ -9,7 +9,7 @@ nav_order: 1
 # Stripe Subscription
 **V1.0**
 
-In this section, you will learn how to create and manage a **RCL Learn** subscription with [Stripe](https://stripe.com/). This section is applicable to training organizations delivering video events and issuing verifiable credentials.
+In this section, you will learn how to create and manage a **RCL Learn** subscription with [Stripe](https://stripe.com/). This section is applicable to organizations issuing verifiable credentials and delivering events.
 
 ## Subscribe
 

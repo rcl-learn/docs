@@ -8,4 +8,4 @@ nav_order: 6
 # Marketing
 **V1.0**
 
-In this section you will learn about marketing tags for your events.
+In this section you will learn about marketing tags for credentials and events.
