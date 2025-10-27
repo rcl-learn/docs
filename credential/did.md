@@ -1,6 +1,7 @@
 ---
 title: DID
 description: Learn what is a decentralized identifier (DID) 
+parent: Credential
 has_children: false
 nav_order: 1
 ---
