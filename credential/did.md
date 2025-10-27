@@ -10,6 +10,18 @@ nav_order: 1
 
 A Decentralized Identifier is used to uniquely identify holders and issuers of [W3C Verifiable Credentials](https://www.w3.org/TR/vc-data-model-2.0/).
 
+# What is a DID
+
+A DID is machine-readable and enables verifiable and decentralized identity. There are many DID methods that can be used to create the DID. These DID methods will outline the electronic format for the DID, how it is hosted and how it is resolved.
+
+# Cryptography
+
+The foundation building block for a DID are Asymmetric Cryptographic Keys. A key pair is generated for the owner of a DID. A private key is securely held by the owner and a correspondent public key is distributed to the public.
+
+An owner of a DID will use their private key to digitally sign a digital file and send this file to a receiver’s computer. The receiver’s computer will then use the public key of the sender that is publicly available to verify the sender’s signature on the digital file. When the digital signature is verified, the receiver’s computer will deem the signature valid and the digital file wll be accepted.
+
+When a DID is created, a public and private key pair is generated for the owner. The owner will download and store the private key in a secure location. The public key will be embedded in the DID. Based on the particular DID method to be used, the public key will be made publicly available by resolving the DID. The public key can then be accessed in a DID document.
+
 # Requirements for the DID
 
 The following are the requirements for the DID that are currently supported. 
@@ -132,13 +144,41 @@ SGhtVG5xQl84czNHQTdKTWdqTGVKZmlWOTNGWjFkUSIsImUiOiJBUUFCIn0sImUiOiJBUUFCIn0
 {: .information }
 Only DIDs created with the ``did:jwk`` method using the RSA algorithm are supported.
 
-# DID for Learners
+# Resolving a DID
 
-## Holder's DID 
+Computer systems that can read the DID will resolve the DID into a DID Document. You can use the [Universal Resolver](https://dev.uniresolver.io/) provided by the Decentralized Identity Foundation (DIF) to resolve a DID. Just copy the DID into the did-url textbox and click the Resolve button. The DID will be resolved into a DID document in json format that looks something like this:
 
-A holder can create their DID in the Learner portal of RCL Learn. The DID will be provided to the user as a text (``.txt``) file. The DID will be provided to the user to download and save in a safe place.
+## Sample DID Document using the did:jwk Method
+```json
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@vocab": "https://www.iana.org/assignments/jose#"
+    }
+  ],
+  "id": "did:jwk:eyJrdHkiOiJSU0EiLCJuIjoid3JFa2VvUUpOdWM5cnBuN3liSkJYb2FQMnpuYU1TWVRkSWtycWV3S1NyVFBoT0Q3cVRnQUViNFZLNldJN1dFSTZMcnoxMXRBYzd5MWJXWlgzX1BFUUFyUnFGeElKQWRvNGVzRXRxYUpWaEdXZTd1Q3NRNklxSHM4ZU9CNHgtbWFPLWVqOFJRZTkzYzZPWHZvMS02T1Z0SDVuY1FxVHRhLTBxR0ZzN0JBT2JPYUs3RGE1NjhuWG05aXUyTXR3WEtsX0JzMTVjVTR2Wlc0cGgyWmZMT0xUMFRFTVlDeXZmS3puaUVrVENUSnZ0Nll4Y3QycVFTenc1TWY2bk9RR29OV0NQdGpuY29XbVFZZUdUc1RaMDNleG5GdE5pQ25qTXdxTzBTQWxyWFd2a1dCMVhyaHlRVi1naWpfemIySjBqRFNWYk1VZ3FPRnFuY0JjRFJtd3dMTmVRIiwiZSI6IkFRQUIifQ",
+  "verificationMethod": [
+    {
+      "id": "#0",
+      "type": "JsonWebKey2020",
+      "controller": "did:jwk:eyJrdHkiOiJSU0EiLCJuIjoid3JFa2VvUUpOdWM5cnBuN3liSkJYb2FQMnpuYU1TWVRkSWtycWV3S1NyVFBoT0Q3cVRnQUViNFZLNldJN1dFSTZMcnoxMXRBYzd5MWJXWlgzX1BFUUFyUnFGeElKQWRvNGVzRXRxYUpWaEdXZTd1Q3NRNklxSHM4ZU9CNHgtbWFPLWVqOFJRZTkzYzZPWHZvMS02T1Z0SDVuY1FxVHRhLTBxR0ZzN0JBT2JPYUs3RGE1NjhuWG05aXUyTXR3WEtsX0JzMTVjVTR2Wlc0cGgyWmZMT0xUMFRFTVlDeXZmS3puaUVrVENUSnZ0Nll4Y3QycVFTenc1TWY2bk9RR29OV0NQdGpuY29XbVFZZUdUc1RaMDNleG5GdE5pQ25qTXdxTzBTQWxyWFd2a1dCMVhyaHlRVi1naWpfemIySjBqRFNWYk1VZ3FPRnFuY0JjRFJtd3dMTmVRIiwiZSI6IkFRQUIifQ",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "wrEkeoQJNuc9rpn7ybJBXoaP2znaMSYTdIkrqewKSrTPhOD7qTgAEb4VK6WI7WEI6Lrz11tAc7y1bWZX3_PEQArRqFxIJAdo4esEtqaJVhGWe7uCsQ6IqHs8eOB4x-maO-ej8RQe93c6OXvo1-6OVtH5ncQqTta-0qGFs7BAObOaK7Da568nXm9iu2MtwXKl_Bs15cU4vZW4ph2ZfLOLT0TEMYCyvfKzniEkTCTJvt6Yxct2qQSzw5Mf6nOQGoNWCPtjncoWmQYeGTsTZ03exnFtNiCnjMwqO0SAlrXWvkWB1XrhyQV-gij_zb2J0jDSVbMUgqOFqncBcDRmwwLNeQ",
+        "e": "AQAB"
+      }
+    }
+  ]
+}
+```
 
-## The holder's private key
+# Download DIDs and Private Keys
 
-he private key will be provided to the user as a text (``.txt``) file. The private key will be provided to the user to download and save in a safe place.
+## Download a DID 
 
+A learner or organizer can create their DID in RCL Learn. The DID will be provided as a text (``.txt``) file. The DID can be downloaded and saved in a safe place.
+
+## Download a private key
+
+The private key will be provided as a text (``.txt``) file. The private key can be downloaded and saved in a safe place.
