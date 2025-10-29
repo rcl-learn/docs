@@ -9,13 +9,13 @@ nav_order: 4
 # Enrollment
 **V1.0**
 
-A learner will enroll for an  on the ``Credentials Details`` page on the site. You can view and manage these enrollments in the Organizer portal.
+A learner will enroll for a credential on the ``Credentials Details`` page on the site. An organizer or Assessor can view these enrollments in the portal.
 
-- In the ``Credentials`` list in the Organizer portal, click on the admin button on the far right for a selected credential, then click the ``Enrollments`` link.
+- In the ``Credentials`` list in the Organizer or Assessor portal, click on the admin button on the far right for a selected credential, then click the ``Enrollments`` link.
 
 - In the ``Enrollments`` page, you can view the enrollments for a selected credential.
 
-- In addition, you can manually add or delete and enrollment.
+- In addition, an Organizer can manually add or delete an enrollment.
 
 ## Assessment Status
 
