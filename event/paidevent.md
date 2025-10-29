@@ -45,9 +45,9 @@ Before a paid event can be created, the following prerequisites must be met :
 
 ## Create a Paid Event in the portal
 
-- In the portal, navigate to the events list for a selected group. 
+- In the Organizer portal, navigate to the events list for a selected group. 
 
-- Click on the admin button to the far right on the list for a selected event and click on the ``Cost`` link.
+- Click on the admin button to the far right on the list for a selected event and click on the ``Edit Cost`` link.
 
 - In the ``Event Cost`` page, add the cost for the event.
 
