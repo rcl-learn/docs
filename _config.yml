@@ -2,6 +2,7 @@
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: true
+ga_tracking: G-1S13H6PX4C
 aux_links:
   "RCL Learn Docs on GitHub":
     - "https://github.com/rcl-learn/docs"
